@@ -13,19 +13,35 @@
 
     </head>
     <body class = "contacts-body">
-      <div class="contact">
+        <ul class="nav justify-content-end">
+                <li class="nav-item contacts-navs">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item contacts-navs">
+                    <a class="nav-link active" href="projects.html" >Projects</a>
+                </li>
+                <li class="nav-item contacts-navs">
+                    <a class="nav-link" href="interests.html">Interests</a>
+                </li>
+                <li class="nav-item contacts-navs">
+                    <a class="nav-link" href="contact.html" style="font-weight:bolder">Contact</a>
+                </li>
+            </ul>
+      <div class="contacts">
+          <div class="contacts-links">
           <h2>
           <p class="contact-me">
               Let's connect on
               <strong><a target="_blank" href="https://www.linkedin.com/in/annedeepa">LinkedIn</a>
               </strong>
               and
-              <strong><a target="_blank" href="https://github.com/DeepaPrasanna">Github</a>.</strong>
-            </p>
-            <p class="contact-me">You can also drop me an
-              <a href="mailto:anneraj73@gmail.com">
-              <strong>Email</strong></a>.</p>
-            </h2>
+              <strong><a target="_blank" href="https://github.com/DeepaPrasanna">Github</a></strong>.
+          </p>
+          <p class="contact-me">You can also drop me an
+            <a href="mailto:anneraj73@gmail.com">
+            <strong>Email</strong></a>.</p>
+           </h2>
+
             <div class="logos">
                 <!--<img src="images/linkedin.png" width="315" height="315">-->
                 <a target="_blank" href="https://www.linkedin.com/in/annedeepa" >
@@ -39,6 +55,25 @@
                 </a>
 
             </div>
+        </div>
+        <div class="contact-form">
+            <form netlify>
+                <h4 id = "contact-text">Contact me </h4>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="name" placeholder="your name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="your email" required>
+
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
       </div>
+      <script src = "script.js"></script>
     </body>
 </html>
