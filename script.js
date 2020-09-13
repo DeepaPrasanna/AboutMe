@@ -10,10 +10,10 @@ email.addEventListener("input", function (event) {
   }
 });
 
-name.addEventListener("input", function (event) {
-  if (name.validity.valid) {
-    name.setCustomValidity("Pls enter a valid username");
-  } else {
-    name.setCustomValidity("");
-  }
-});
+// name.addEventListener("input", function (event) {
+//   if (name.validity.valid) {
+//     name.setCustomValidity("Pls enter a valid username");
+//   } else {
+//     name.setCustomValidity("");
+//   }
+// });
